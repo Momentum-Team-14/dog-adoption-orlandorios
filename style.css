@@ -8,13 +8,24 @@ h1 {
 body {
     font-family: 'Open Sans';
 }
+
+.traits {
+    padding: 0 0 0.15rem 0;
+    /* display: inline; */
+    display: inline-flexbox;
+}
+
+
 .traits li {
-    margin: 5px;
+    display: inline-block;
+    margin: 2px;
     background-color: #89DEEF;
-    display: inline;
-    border-radius: 2rem;
-    font-size: smaller;
-    border: .3rem solid #89DEEF;
+    border-radius: 1rem;
+    font-size: 0.42rem;
+    border: .2rem solid #89DEEF;
+    list-style: none;
+    
+    
 }
 
 h3 {font-family: oswald;
@@ -34,29 +45,54 @@ h3 {font-family: oswald;
     
 .profile {
     width: 15rem;
-    margin: 5px;
+    margin: 2px;
     
 }
 
 .links {
     color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
+    
+    
 }
 .donate {
-    background-image: url(/Users/Orlando/Momentum/Homework/dog-adoption-orlandorios/starter_files/images/donate.jpg);
-}
+        background: 
+        linear-gradient(
+          rgba(166,169,240, 0.66),
+          rgba(166,169,240, 0.66)),
+          url(starter_files/images/donate.jpg);
+      }
+
 .volunteer {
-    background-image: url(/Users/Orlando/Momentum/Homework/dog-adoption-orlandorios/starter_files/images/volunteer.jpg);
+    background: 
+    linear-gradient(
+      rgba(166,169,240, 0.66),
+      rgba(166,169,240, 0.66)),
+      url(starter_files/images/volunteer.jpg);
 }
 .location {
-    background-image: url(/Users/Orlando/Momentum/Homework/dog-adoption-orlandorios/starter_files/images/location.png);
+    background: 
+    linear-gradient(
+      rgba(166,169,240, 0.66),
+      rgba(166,169,240, 0.66)),
+      url(starter_files/images/location.png);       
 }
 
 footer {
-    display: flex;
-    flex-wrap: wrap;
+   display: flex;
+   font-family: oswald;
+
 }
+   
 .links {
-    width: 33%;
-    height: 30vh;
-    
+    width: 100%;
+    height: 15rem;
+    background-size: cover;
 }
