@@ -1,0 +1,62 @@
+h1 {
+    background-color: #004175;
+    border-color: #89DEEF;
+    color: white;
+    padding: 3rem;
+    border-bottom: .2rem solid #89DEEF;
+}
+body {
+    font-family: 'Open Sans';
+}
+.traits li {
+    margin: 5px;
+    background-color: #89DEEF;
+    display: inline;
+    border-radius: 2rem;
+    font-size: smaller;
+    border: .3rem solid #89DEEF;
+}
+
+h3 {font-family: oswald;
+}
+
+#dogs {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    
+}
+
+.profile img {
+    width: 100%;
+
+}
+    
+.profile {
+    width: 15rem;
+    margin: 5px;
+    
+}
+
+.links {
+    color: white;
+}
+.donate {
+    background-image: url(/Users/Orlando/Momentum/Homework/dog-adoption-orlandorios/starter_files/images/donate.jpg);
+}
+.volunteer {
+    background-image: url(/Users/Orlando/Momentum/Homework/dog-adoption-orlandorios/starter_files/images/volunteer.jpg);
+}
+.location {
+    background-image: url(/Users/Orlando/Momentum/Homework/dog-adoption-orlandorios/starter_files/images/location.png);
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.links {
+    width: 33%;
+    height: 30vh;
+    
+}
