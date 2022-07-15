@@ -2,29 +2,38 @@ h1 {
     background-color: #004175;
     border-color: #89DEEF;
     color: white;
-    padding: 3rem;
+    padding: 1rem;
     border-bottom: .2rem solid #89DEEF;
+
 }
+
 body {
     font-family: 'Open Sans';
+    align-content: center;
 }
 
 .traits {
-    padding: 0 0 0.15rem 0;
-    /* display: inline; */
-    display: inline-flexbox;
+    padding-bottom: 1.5rem;
+    padding-left: .5rem;
+    /* display: inline;
+    display: inline-flexbox;  */
+    margin: -5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    
 }
 
 
 .traits li {
     display: inline-block;
-    margin: 2px;
+    margin: 1%;
     background-color: #89DEEF;
     border-radius: 1rem;
-    font-size: 0.42rem;
+    font-size: 0.55rem;
     border: .2rem solid #89DEEF;
     list-style: none;
-    
+
     
 }
 
@@ -34,18 +43,19 @@ h3 {font-family: oswald;
 #dogs {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     
 }
 
 .profile img {
     width: 100%;
+    margin-block-end: -1.5rem;
+
 
 }
     
 .profile {
     width: 15rem;
-    margin: 2px;
     
 }
 
@@ -58,10 +68,9 @@ h3 {font-family: oswald;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    
-    
-    
+       
 }
+
 .donate {
         background: 
         linear-gradient(
